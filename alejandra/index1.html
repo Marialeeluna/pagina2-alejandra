@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>buscador de productos</title>
+  <link rel="stylesheet" type="text/css" href="estilos1.css">
+</head>
+<body> 
+
+ <header>
+    <div class="logo">
+      <img src="quetzal.png" alt="Logo">
+      <div class="title">Sabores de mi <br> Tierra</div>
+    </div>
+    <nav>
+      <ul>
+          <li><a href="index.html#">Inicio</a></li>
+        <li><a class="active" href="index1.html#">Menú</a></li>
+        <li><a href="index2.html#">Acerca de</a></li>
+        <li><a href="index3.html#">Redes Sociales</a></li>
+        <li><a href="index4.html">Servicios</a></li>
+      </ul>
+    </nav>
+        </div>
+        </header>
+  <div class="search-container">
+    <input type="text" id="searchInput" placeholder="Buscar Menú...">
+    <button onclick="filterProducts()">Buscar</button>
+  </div>
+  <ul id="product-list">
+    <li data-category="Desayunos">
+      <h3>Chuchitos</h3>
+      <p>Elaborados de maíz natural, salsa criolla, pollo o cerdo, envueltos en una tusa de maíz, cocidos con leña.</p>
+      <img src="https://pastelerialostulipanes.com/wp-content/uploads/2022/03/Chuchitos.jpg" width="350" height="225">
+    </li>
+    <li data-category="Almuerzos">
+      <h3>Churrascos</h3>
+      <p> corte de carne, generalmente de res, que se asa a la parrilla o a la plancha, acompañado de papas, cebollines, chirmol y aguacate.</p>
+      <img src="https://progcarne.com/storage/app/uploads/public/60f/9c4/c89/60f9c4c89a68e000121704.jpg" width="350" height="225">
+    </li>
+    <li data-category="Cenas">
+      <h3>Hamburguesas</h3>
+      <p> Jugosa carne de res a la parrilla, servida en pan ligeramente tostado, acompañada de queso cheddar derretido, lechuga fresca, tomate, cebolla caramelizada y nuestra salsa especial de la casa. Incluye papas fritas crujientes.</p>
+      <img src="https://www.cnature.es/wp-content/uploads/2021/12/hamburguesa-con-guacamole.jpg" width="350" height="225">
+    </li>
+    <li data-category="Bebidas">
+      <h3>Bebidas de la casa</h3>
+      <p>Delisiosas limonadas de la casa: limonada sencilla, limonada con fresa, limonada con naranja</p>
+      <img src="https://www.finedininglovers.com/es/sites/g/files/xknfdk1706/files/2022-05/bebidas-refrescantes-sin-alcohol%C2%A9iStock.jpg" with="350" height="225" >
+    </li>
+    <li data-category="Postre">
+      <h3>Postre</h3>
+      <p>Exquisito brownie de chocolate con helado y crema batida</p>
+      <img src="https://static.vecteezy.com/system/resources/previews/010/455/063/large_2x/chewy-dense-brownie-our-house-brownie-with-italian-chocolate-ice-cream-and-whipped-cream-photo.jpg" width="350" height="225">
+    </li>
+    
+  </ul>
+
+
+<script src="funcion1.js"></script>
+</body>
+</html>
